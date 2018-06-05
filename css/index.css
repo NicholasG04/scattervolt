@@ -13,12 +13,12 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 .root { height: 2394px; overflow: hidden; min-height: 1787px; }
 
 /*nav*/
-#navBar { top: 80px; left: 90px; width: 230px; height: 24px; display: block;}
+#navBar { top: 80px; left: 90px; min-width: 230px; width: 230px; min-height: 24px; height: 24px; display: block; z-index: 264; }
 #navBar, #navBar ul { text-align: center; }
 #navBar li { margin: 0px 0px 0px 20px; }
-#navBar li a { text-transform: uppercase; padding: 10px 20px 10px 0px; font: normal bold 14px Roboto,Arial,Helvetica,sans-serif; text-decoration: none; color: #5ab1c7;}
-#navBar li.active > a {color: #ffc800; }
-#navBar li.over > a, #navBar li:focus > a { border: 0px none #000000; font: normal bold 14px Arial,Helvetica,sans-serif; text-decoration: underline; color: #000000; line-height: 16px; background: transparent none repeat center center; }
+#navBar li a { text-transform: uppercase; padding: 10px 20px 10px 0px; font: normal bold 14px Roboto,Arial,Helvetica,sans-serif; text-decoration: none; color: #5ab1c7; }
+#navBar li.active > a { font: normal bold 14px Roboto,Arial,Helvetica,sans-serif; color: #ffc800; }
+
 /*endNav*/
 
 #marcPic { top: 40px; left: 10px; min-width: 90px; width: 90px; min-height: 100px; height: 100px; display: block; z-index: 259; overflow: hidden; }
