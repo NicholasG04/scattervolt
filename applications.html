@@ -23,7 +23,7 @@
 	<link href="css/font-awesome/font-awesome.min.css?v=4.7.0" rel="stylesheet" type="text/css" />
 	<link href="css/site.css?v=20180117130644" rel="stylesheet" type="text/css" />
 	<link href="css/common.css?ts=1517778470" rel="stylesheet" type="text/css" />
-	<link href="css/6.css?ts=1517778470" rel="stylesheet" type="text/css" />
+	<link href="css/applications.css" rel="stylesheet" type="text/css" />
 	{{ga_code}}
 	<script type="text/javascript">var currLang = '';</script>	
 	<!--[if lt IE 9]>
@@ -51,30 +51,6 @@
 <div class="wb_cont_inner"><div id="wb_element_instance35" class="wb_element" style=" line-height: normal;"><h5 class="wb-stl-subtitle" style="text-align: center;"><span class="wb_tr_ok">Discord Applications</span></h5>
 </div><div id="wb_element_instance36" class="wb_element" style=" line-height: normal;"><h3 class="wb-stl-heading3" style="text-align: center;"><span style="color:rgba(247,247,247,1);">Here you can apply for roles on the ScatterVolt Discord Server. If you have any questions, please contact an admin on the server!</span></h3>
 </div><div id="wb_element_instance37" class="wb_element"><a class="wb_button" href="Moderator-Application/"><span>Moderator Application</span></a></div><div id="wb_element_instance38" class="wb_element"><a class="wb_button" href="Tech-Support-Application/"><span>Tech Support Application</span></a></div><div id="wb_element_instance39" class="wb_element"><a class="wb_button" href="Programmer-Application/"><span>Programmer Application</span></a></div><div id="wb_element_instance40" class="wb_element"><a class="wb_button" href="YouTuber/Streamer-Application/"><span>YouTuber/Streamer Application</span></a></div><div id="wb_element_instance41" class="wb_element" style="width: 100%;">
-			<?php
-				global $show_comments;
-				if (isset($show_comments) && $show_comments) {
-					renderComments(6);
-			?>
-			<script type="text/javascript">
-				$(function() {
-					var block = $("#wb_element_instance41");
-					var comments = block.children(".wb_comments").eq(0);
-					var contentBlock = $("#wb_main");
-					contentBlock.height(contentBlock.height() + comments.height());
-				});
-			</script>
-			<?php
-				} else {
-			?>
-			<script type="text/javascript">
-				$(function() {
-					$("#wb_element_instance41").hide();
-				});
-			</script>
-			<?php
-				}
-			?>
 			</div></div><div class="wb_cont_outer"></div><div class="wb_cont_bg"></div></div>
 <div class="vbox wb_container" id="wb_footer">
 	
