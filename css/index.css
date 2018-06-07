@@ -12,7 +12,13 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 .wb_cont_bg { width: 320px; margin-left: -160px; }
 .root { height: 2394px; overflow: hidden; min-height: 1787px; }
 
+#wb_element_instance6 > p {
+	font-size: 14px;
+}
 
+#wb_element_instace6 > #longText {
+	margin-top: 20px;
+}
 
 #marcPic { top: 40px; left: 10px; min-width: 90px; width: 90px; min-height: 100px; height: 100px; display: block; z-index: 259; overflow: hidden; }
 #marcPic img { width: 100px; height: 100px; display: block; position: relative; left: 0px; top: 0px; max-width: inherit; }
@@ -21,11 +27,11 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 #wb_element_instance3 p:last-child { margin-bottom: 0; }
 #wb_element_instance3 { top: 20px; left: 10px; min-width: 190px; width: 190px; min-height: 30px; height: 30px; display: block; z-index: 267; }
 #wb_element_instance4 > .wb-elm-line { margin: 1px 0 0 0; width: 100%; height: 1px; left: 0; top: 50%; border-top: 1px solid #d9d9d9;; }
-#wb_element_instance4 { top: 1000px; left: 10px; min-width: 300px; width: 300px; min-height: 40px; height: 40px; display: block; z-index: 122; }
+#wb_element_instance4 { top: 1450px; left: 10px; min-width: 300px; width: 300px; min-height: 40px; height: 40px; display: block; z-index: 122; }
 #wb_element_instance5 p:last-child { margin-bottom: 0; }
-#wb_element_instance5 { top: 1330px; left: 0px; min-width: 310px; width: 310px; min-height: 29px; height: 29px; display: block; z-index: 135; }
+#wb_element_instance5 { top: 1430px; left: 0px; min-width: 310px; width: 310px; min-height: 29px; height: 29px; display: block; z-index: 135; }
 #wb_element_instance6 p:last-child { margin-bottom: 0; }
-#wb_element_instance6 { top: 1370px; left: 10px; min-width: 300px; width: 300px; min-height: 215px; height: 215px; display: block; z-index: 138; }
+#wb_element_instance6 { top: 1480px; left: 10px; min-width: 300px; width: 300px; min-height: 215px; height: 215px; display: block; z-index: 138; }
 #wb_element_instance7 p:last-child { margin-bottom: 0; }
 #wb_element_instance7 { top: 110px; left: 10px; min-width: 300px; width: 300px; min-height: 54px; height: 54px; display: block; z-index: 139; }
 #wb_element_instance8 { top: 190px; left: 30px; min-width: 260px; width: 260px; min-height: 60px; height: 60px; display: block; z-index: 140; }
@@ -45,11 +51,11 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 #wb_element_instance14 { top: 1600px; left: 20px; min-width: 280px; width: 280px; min-height: 470px; height: 470px; display: block; z-index: 249; overflow: hidden; overflow-y: auto; }
 #wb_element_instance15 { top: 620px; left: 0px; min-width: 320px; width: 320px; min-height: 200px; height: 200px; display: block; z-index: 250; }
 #wb_element_instance15 iframe { width: 320px; height: 200px; }
-#wb_element_instance16 { top: 1130px; left: 0px; min-width: 290px; width: 290px; min-height: 160px; height: 160px; display: block; z-index: 253; }
-#wb_element_instance16 iframe { width: 290px; height: 160px; }
-#wb_element_instance17 { top: 970px; left: 0px; min-width: 310px; width: 310px; min-height: 160px; height: 160px; display: block; z-index: 254; }
-#wb_element_instance17 iframe { width: 310px; height: 160px; }
-#wb_element_instance18 { top: 800px; left: 0px; min-width: 320px; width: 320px; min-height: 180px; height: 180px; display: block; z-index: 255; }
+#wb_element_instance16 { top: 1220px; left: 0px; min-width: 290px; width: 290px; min-height: 160px; height: 160px; display: block; z-index: 253; }
+#wb_element_instance16 iframe { width: 320px; height: 160px; }
+#wb_element_instance17 { top: 1040px; left: 0px; min-width: 310px; width: 310px; min-height: 160px; height: 160px; display: block; z-index: 254; }
+#wb_element_instance17 iframe { width: 320px; height: 160px; }
+#wb_element_instance18 { top: 840px; left: 0px; min-width: 320px; width: 320px; min-height: 180px; height: 180px; display: block; z-index: 255; }
 #wb_element_instance18 iframe { width: 320px; height: 180px; }
 #wb_element_instance19 p:last-child { margin-bottom: 0; }
 #wb_element_instance19 { top: 600px; left: 10px; min-width: 90px; width: 90px; min-height: 24px; height: 24px; display: block; z-index: 256; }
