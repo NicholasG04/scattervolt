@@ -12,13 +12,8 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 .wb_cont_bg { width: 320px; margin-left: -160px; }
 .root { height: 2394px; overflow: hidden; min-height: 1787px; }
 
-#wb_element_instance6 > p {
-	font-size: 14px;
-}
-
-#wb_element_instace6 > #longText {
-	margin-top: 20px;
-}
+#wb_element_instance6 > p { font-size: 14px;}
+#wb_element_instace6 > #longText {margin-top: 20px;}
 
 #marcPic { top: 40px; left: 10px; min-width: 90px; width: 90px; min-height: 100px; height: 100px; display: block; z-index: 259; overflow: hidden; }
 #marcPic img { width: 100px; height: 100px; display: block; position: relative; left: 0px; top: 0px; max-width: inherit; }
