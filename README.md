@@ -17,13 +17,19 @@ v#.# = Archives of previous releases (cloned from live for each version)
 ## Cycle
 
 1: Version is released (eg v2)
+
 2: Live is cloned into an archive, ie v-1
+
 3: Master is cloned to live (actually fields the new version)
+
 4: Future is imported into master
+
 5: Master is worked on
+
 6 goto 1
 
 ## If hotfix necessary
 
 1. Bug is fixed in live
+
 2: Release is made
