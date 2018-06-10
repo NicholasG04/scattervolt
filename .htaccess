@@ -1,0 +1,24 @@
+# Powered by Zyro.com
+
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresDefault A0
+	ExpiresByType image/gif A691200
+	ExpiresByType image/png A691200
+	ExpiresByType image/jpeg A691200
+	ExpiresByType text/css A691200
+	ExpiresByType text/javascript A691200
+	ExpiresByType application/javascript A691200
+</IfModule>
+
+ErrorDocument 401 "Unauthorized"
+ErrorDocument 403 "Forbidden"
+RewriteEngine On
+RewriteBase /
+#### PERSISTENT CONTENT ####
+DirectoryIndex index.php index.cgi index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ zyro/$1 [L,QSA]
+
+
