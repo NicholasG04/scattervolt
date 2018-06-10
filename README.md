@@ -9,20 +9,21 @@ Be sure to have notifications on for #website-updates
 
 ## When v2 is released, this is what the branches will mean:
 
-live = live on website, now.
-master = What's being worked on for the next release
-future = What's happening for future releases after next release
-vx.y = Previous releases
+live = The live webpage. This is currently in use on the site
+master = Upcoming version; bug fixes only
+future = New features, large changes, stuff that doesn't belong in master as a "minor fix"
+v#.# = Archives of previous releases (cloned from live for each version)
 
 ## Cycle
 
-1. A Version is released (eg v2)
-2. This version is then cloned into a branch with the version name (eg v2)
-3. Future is cloned into master to be worked on for the next version (eg v3)
-4. master (v3) is worked on
-5. master cloned into a release and archived
-6. Cycle repeats
+1: Version is released (eg v2)
+2: Live is cloned into an archive, ie v-1
+3: Master is cloned to live (actually fields the new version)
+4: Future is imported into master
+5: Master is worked on
+6 goto 1
 
 ## If hotfix necessary
 
-1. live is edited, and then will be released as a -hotfix
+1. Bug is fixed in live
+2: Release is made
