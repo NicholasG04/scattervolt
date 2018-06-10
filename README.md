@@ -33,6 +33,6 @@ v#.# = Archives of previous releases (cloned from live for each version)
 
 ## If hotfix necessary
 
-1. Bug is fixed in live
+1: Bug is fixed in live
 
 2: Release is made
