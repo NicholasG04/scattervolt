@@ -11,6 +11,7 @@
     <meta name="og:url" content="{{curr_url}}">
     <!-- Facebook Open Graph end -->
     
+    <!-- Ancillaries start -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" /> <!-- bootstrap? maybe unused -->
     <script src="js/bootstrap.min.js" type="text/javascript"></script> <!-- bootstrap? maybe unused -->
     <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script> <!-- JQuery -->
@@ -19,8 +20,11 @@
     <link href="css/site.css?v=20180117130644" rel="stylesheet" type="text/css" /> <!-- sitewide CSS? (stranger danger) -->
     <link href="css/common.css?ts=1517778470" rel="stylesheet" type="text/css" /> <!-- common CSS? -->
     <link href="css/yt-streamer.css" rel="stylesheet" type="text/css" /> <!-- single page CSS? -->
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" /> <!-- got no idea -->
+    <!-- Ancillaries end -->
+    
+    <!-- Meta and base stuff, whatever that is -->
     <base href="{{base_url}}"> <!-- no clue -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" /> <!-- got no idea -->
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Scales the viewport to match the device with, bu asks for a scaling of 1 everywhere. This is a retarded idea. -->
     <meta name="description" content=""> <!-- something something SEO -->
     <meta name="keywords" content=""> <!-- something something SEO -->
@@ -56,7 +60,7 @@
               <li><a href="applications.html" target="_self">Discord Applications</a></li>
               <li><a href="ssb.html" target="_self">Super Smash Builds!</a></li>
               <li><a href="https://scattervolt.com/forum" target="_blank">Forum</a></li>
-              <li><a href="404.html" target="_blank">Merch</a></li>
+              <li><a href="404.html" target="_blank">Merch</a></li> <!-- Really? -->
             </ul>
             <div class="clearfix"></div> <!-- Breaks shit if it's single. Don't steal its mate. -->
           </div>
@@ -78,7 +82,7 @@
         <div class="wb_cont_outer"></div>
         <div class="wb_cont_bg"></div>
       </div> <!-- Header end -->
-    
+      
       <div class="vbox wb_container" id="wb_main"> <!-- Content start -->
         <div class="wb_cont_inner">
           <div id="wb_element_instance74" class="wb_element" style=" line-height: normal;">
@@ -101,7 +105,7 @@
         </div>
         <div class="wb_cont_bg"></div>
       </div> <!-- Content end -->
-    
+      
       <div class="vbox wb_container" id="wb_footer"> <!-- Footer start. Like with the header, this should be in another file in the future branch. -->
         <div class="wb_cont_inner" style="height: 124px;">
           <div id="wb_element_instance73" class="wb_element" style=" line-height: normal;">
@@ -116,7 +120,7 @@
                 if (!html) {
                   footer.parent().remove();
                   footer = $("#wb_footer, #wb_footer .wb_cont_inner");
-                  footer.css({height: ""});
+                  footer.css({height: ""}); // Because we don't do anything else here.
                 }
               });
             </script>
