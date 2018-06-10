@@ -9,10 +9,10 @@ Be sure to have notifications on for #website-updates
 
 ## When v2 is released, this is what the branches will mean:
 
-live = live on website, now.
-master = What's being worked on for the next release
-future = What's happening for future releases after next release
-vx.y = Previous releases
+live = The live webpage. This is currently in use on the site
+master = Upcoming version; bug fixes only
+future = New features, large changes, stuff that doesn't belong in master as a "minor fix"
+v#.# = Archives of previous releases (cloned from live for each version)
 
 ## Cycle
 
