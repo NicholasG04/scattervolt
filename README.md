@@ -9,10 +9,10 @@ Be sure to have notifications on for #website-updates
 
 ## When v2 is released, this is what the branches will mean:
 
-*live = The live webpage. This is currently in use on the site
-*master = Upcoming version; bug fixes only
-*future = New features, large changes, stuff that doesn't belong in master as a "minor fix"
-*v#.# = Archives of previous releases (cloned from live for each version)
+* live = The live webpage. This is currently in use on the site
+* master = Upcoming version; bug fixes only
+* future = New features, large changes, stuff that doesn't belong in master as a "minor fix"
+* v#.# = Archives of previous releases (cloned from live for each version)
 
 ## Cycle
 
