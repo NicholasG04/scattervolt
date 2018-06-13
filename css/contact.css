@@ -2,10 +2,10 @@
 #wb_header { height: 200px; }
 #wb_header > .wb_cont_bg { background: transparent none repeat scroll left top; }
 #wb_main { height: 910px; padding-bottom: 50px; }
-#wb_main > .wb_cont_bg { background: transparent none repeat left top; background-size: auto 20%; }
+#wb_main > .wb_cont_bg { background: transparent none repeat scroll left top; }
 #wb_footer { height: 74px; }
 #wb_footer > .wb_cont_bg { background: transparent none repeat-x scroll left top; }
-body { background: transparent url("https://cdn.discordapp.com/attachments/282973572412997633/409807915902435338/pixlr_20180204152916656-1-1-1.jpg") no-repeat scroll center top; background-size: 100% 35%; }
+body { background: transparent url("../gallery/bg.jpg") no-repeat scroll center top; background-size: 100% 35%; }
 .wb_sbg { background: transparent none repeat-x scroll left top; }
 body, .wb_sbg { min-width: 320px; min-height: 1184px; }
 .wb_cont_inner { width: 320px; height: 100%; }
@@ -30,7 +30,7 @@ body, .wb_sbg { min-width: 320px; min-height: 1184px; }
 #wb_element_instance27 p:last-child { margin-bottom: 0; }
 #wb_element_instance27 { top: 20px; left: 10px; min-width: 305px; width: 305px; min-height: 35px; height: 35px; display: block; z-index: 81; }
 #wb_element_instance28 form tr.form-footer > td { height: 20px; }
-#wb_element_instance28 { top: 200px; left: 0px; min-width: 310px; width: 310px; min-height: 370px; height: 370px; display: block; z-index: 87; }
+#wb_element_instance28 { top: 220px; left: 0px; min-width: 310px; width: 310px; min-height: 370px; height: 370px; display: block; z-index: 87; }
 #wb_element_instance28 form .form-area-field { height: 110px; }
 #wb_element_instance28 form td { text-align: right; }
 #wb_element_instance28 form tr.area-row > th { height: 1%; }
@@ -53,7 +53,7 @@ body, .wb_sbg { min-width: 320px; min-height: 1184px; }
 	#wb_element_instance25 { top: 80px; left: 120px; min-width: 230px; width: 230px; min-height: 46px; height: 46px; display: block; }
 	#wb_element_instance26 { top: 20px; left: 10px; min-width: 250px; width: 250px; min-height: 30px; height: 30px; display: block; }
 	#wb_element_instance27 { top: 10px; left: 10px; min-width: 750px; width: 750px; min-height: 46px; height: 46px; display: block; }
-	#wb_element_instance28 { top: 200px; left: 0px; min-width: 768px; width: 768px; min-height: 330px; height: 330px; display: block; }
+	#wb_element_instance28 { top: 220px; left: 0px; min-width: 768px; width: 768px; min-height: 330px; height: 330px; display: block; }
 	#wb_element_instance28 form .form-area-field { height: 140px; }
 	#wb_element_instance29 { top: 580px; left: 0px; display: block; }
 	#wb_element_instance30 { top: 64px; left: 0px; display: block; }
@@ -73,7 +73,7 @@ body, .wb_sbg { min-width: 320px; min-height: 1184px; }
 	#wb_element_instance25 { top: 80px; left: 130px; min-width: 390px; width: 390px; min-height: 57px; height: 57px; display: block; }
 	#wb_element_instance26 { top: 20px; left: 11px; min-width: 410px; width: 410px; min-height: 24px; height: 24px; display: block; }
 	#wb_element_instance27 { top: 0px; left: 10px; min-width: 970px; width: 970px; min-height: 57px; height: 57px; display: block; }
-	#wb_element_instance28 { top: 200px; left: 0px; min-width: 990px; width: 990px; min-height: 360px; height: 360px; display: block; }
+	#wb_element_instance28 { top: 250px; left: 0px; min-width: 990px; width: 990px; min-height: 360px; height: 360px; display: block; }
 	#wb_element_instance28 form .form-area-field { height: 356px; }
 	#wb_element_instance29 { top: 580px; left: 0px; display: block; }
 	#wb_element_instance30 { top: 64px; left: 0px; display: block; }
@@ -93,7 +93,7 @@ body, .wb_sbg { min-width: 320px; min-height: 1184px; }
 	#wb_element_instance25 { top: 90px; left: 140px; min-width: 320px; width: 320px; min-height: 68px; height: 68px; display: block; }
 	#wb_element_instance26 { top: 20px; left: 10px; min-width: 450px; width: 450px; min-height: 24px; height: 24px; display: block; }
 	#wb_element_instance27 { top: 0px; left: 10px; min-width: 1180px; width: 1180px; min-height: 68px; height: 68px; display: block; }
-	#wb_element_instance28 { top: 120px; left: 0px; min-width: 1200px; width: 1200px; min-height: 380px; height: 380px; display: block; }
+	#wb_element_instance28 { top: 250px; left: 0px; min-width: 1200px; width: 1200px; min-height: 380px; height: 380px; display: block; }
 	#wb_element_instance28 form .form-area-field { height: 190px; }
 	#wb_element_instance29 { top: 580px; left: 0px; display: block; }
 	#wb_element_instance30 { top: 64px; left: 0px; display: block; }
