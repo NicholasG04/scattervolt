@@ -18,7 +18,7 @@
     <!-- Facebook Open Graph end -->
 
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>
 
@@ -68,6 +68,21 @@
         gtag('js', new Date());
         gtag('config', 'UA-113610850-1');
     </script>
+
+    <!-- Start Auto Updater-->
+    <script>
+        $( document ).ready(function() {
+               var YouTubeAPI = "https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCl6ulw6cn3npwxkg_56Ee_w&maxResults=4&order=date&type=video&key=AIzaSyDRXvrc71eD6llQCW7z79Pgcd8z4VSUS-g";
+                $.getJSON( YouTubeAPI, function( data ){
+                    $.each( data.items, function(i, item) {
+                        $(".youtube-player").eq(i).attr('src', "https://www.youtube.com/embed/" + item.id.videoId + "?controls=1&amp;amp;showinfo=1&amp;amp;rel=1");
+                    })
+                })
+
+        });
+    
+    </script>
+    <!-- End Auto Updater-->
 
 </head>
 
@@ -194,22 +209,22 @@
                 <!-- Start YT Vids [LEFT TO RIGHT] -->
                 <div id="wb_element_instance15" class="wb_element">
                     <iframe title="YouTube video player" class="youtube-player wow animated fadeIn" data-wow-delay="3s" allowfullscreen="yes"
-                        type="text/html" src="https://www.youtube.com/embed/aRV19m6XA-4?controls=1&amp;amp;showinfo=1&amp;amp;rel=1"
+                        type="text/html" src=""
                         frameborder="0"></iframe>
                 </div>
                 <div id="wb_element_instance18" class="wb_element">
                     <iframe title="YouTube video player" class="youtube-player wow animated fadeIn" data-wow-delay="3s" allowfullscreen="yes"
-                        type="text/html" src="https://www.youtube.com/embed/rWApB_BEfoI?controls=1&amp;amp;showinfo=1&amp;amp;rel=1"
+                        type="text/html" src=""
                         frameborder="0"></iframe>
                 </div>
                 <div id="wb_element_instance17" class="wb_element">
                     <iframe title="YouTube video player" class="youtube-player wow animated fadeIn" data-wow-delay="3s" allowfullscreen="yes"
-                        type="text/html" src="https://www.youtube.com/embed/21-PTzcVhWs?controls=1&amp;amp;showinfo=1&amp;amp;rel=1"
+                        type="text/html" s
                         frameborder="0"></iframe>
                 </div>
                 <div id="wb_element_instance16" class="wb_element">
                     <iframe title="YouTube video player" class="youtube-player wow animated fadeIn" data-wow-delay="3s" allowfullscreen="yes"
-                        type="text/html" src="https://www.youtube.com/embed/YaNtrNJ9_oM?controls=1&amp;amp;showinfo=1&amp;amp;rel=1"
+                        type="text/html" src=""
                         frameborder="0"></iframe>
                 </div>
                 <div id="wb_element_instance19" class="wb_element" style=" line-height: normal;">
