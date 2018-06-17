@@ -17,10 +17,10 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 
 #marcPic { top: 40px; left: 10px; min-width: 90px; width: 90px; min-height: 100px; height: 100px; display: block; z-index: 259; overflow: hidden; }
 #marcPic img { width: 100px; height: 100px; display: block; position: relative; left: 0px; top: 0px; max-width: inherit; }
-#wb_element_instance2 p:last-child { margin-bottom: 0; }
-#wb_element_instance2 { top: 40px; left: 130px; min-width: 160px; width: 160px; min-height: 35px; height: 35px; display: block; z-index: 260; }
-#wb_element_instance3 p:last-child { margin-bottom: 0; }
-#wb_element_instance3 { top: 20px; left: 10px; min-width: 190px; width: 190px; min-height: 30px; height: 30px; display: block; z-index: 267; }
+#smallScatterVolt p:last-child { margin-bottom: 0; }
+#smallScatterVolt { top: 40px; left: 130px; min-width: 160px; width: 160px; min-height: 35px; height: 35px; display: block; z-index: 260; }
+#footer p:last-child { margin-bottom: 0; }
+#footer { top: 20px; left: 10px; min-width: 190px; width: 190px; min-height: 30px; height: 30px; display: block; z-index: 267; }
 #aboutLine > .wb-elm-line { margin: 1px 0 0 0; width: 100%; height: 1px; left: 0; top: 50%; border-top: 1px solid #d9d9d9;; }
 #aboutLine { top: 1380px; left: 10px; min-width: 300px; width: 300px; min-height: 40px; height: 40px; display: block; z-index: 122; }
 #aboutMeTitle p:last-child { margin-bottom: 0; }
@@ -52,10 +52,8 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 #video3 iframe { width: 304px; height: 171px; }
 #video4 { top: 1160px; left: 0px; min-width: 304px; width: 304px; min-height: 171px; height: 171px; display: block; z-index: 253; }
 #video4 iframe { width: 304px; height: 171px; }
-#wb_element_instance19 p:last-child { margin-bottom: 0; }
-#wb_element_instance19 { top: 600px; left: 10px; min-width: 90px; width: 90px; min-height: 24px; height: 24px; display: block; z-index: 256; }
-#wb_element_instance20 { top: 1060px; left: 80px; min-width: 240px; width: 240px; min-height: 450px; height: 450px; display: none; z-index: 159; }
-#wb_element_instance21 { top: 1540px; left: 0px; display: block; z-index: 9000; }
+#mostRecent p:last-child { margin-bottom: 0; }
+#mostRecent { top: 600px; left: 10px; min-width: 90px; width: 90px; min-height: 24px; height: 24px; display: block; z-index: 256; }
 #wb_element_instance22 { top: 64px; left: 0px; display: block; z-index: 9999; }
 
 
@@ -70,8 +68,8 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 
 	#marcPic { top: 50px; left: 10px; min-width: 100px; width: 100px; min-height: 100px; height: 100px; display: block; }
 	#marcPic img { width: 100px; height: 100px; display: block; position: static; left: 0px; top: 0px; }
-	#wb_element_instance2 { top: 80px; left: 120px; min-width: 230px; width: 230px; min-height: 46px; height: 46px; display: block; }
-	#wb_element_instance3 { top: 20px; left: 10px; min-width: 250px; width: 250px; min-height: 30px; height: 30px; display: block; }
+	#smallScatterVolt { top: 80px; left: 120px; min-width: 230px; width: 230px; min-height: 46px; height: 46px; display: block; }
+	#footer { top: 20px; left: 10px; min-width: 250px; width: 250px; min-height: 30px; height: 30px; display: block; }
 	#aboutLine { top: 580px; left: 0px; min-width: 768px; width: 768px; min-height: 40px; height: 40px; display: block; }
 	#aboutMeTitle { top: 560px; left: 0px; min-width: 750px; width: 750px; min-height: 38px; height: 38px; display: block; }
 	#aboutDesc { top: 610px; left: 0px; min-width: 760px; width: 760px; min-height: 241px; height: 241px; display: block; }
@@ -96,9 +94,7 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 	#video3 iframe { width: 176px; height: 99px; }
 	#video4 { top: 430px; left: 580px; min-width: 160px; width: 160px; min-height: 120px; height: 120px; display: block; }
 	#video4 iframe { width: 176px; height: 99px; }
-	#wb_element_instance19 { top: 410px; left: 10px; min-width: 90px; width: 90px; min-height: 24px; height: 24px; display: block; }
-	#wb_element_instance20 { top: 860px; left: 280px; min-width: 230px; width: 230px; min-height: 550px; height: 550px; display: block; }
-	#wb_element_instance21 { top: 1540px; left: 0px; display: block; }
+	#mostRecent { top: 410px; left: 10px; min-width: 90px; width: 90px; min-height: 24px; height: 24px; display: block; }
 	#wb_element_instance22 { top: 64px; left: 0px; display: block; }
 }
 
@@ -112,8 +108,8 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 	.root { height: 1300px; overflow: visible; min-height: 1300px; }
 	#marcPic { top: 50px; left: 20px; min-width: 100px; width: 100px; min-height: 110px; height: 110px; display: block; overflow: hidden; }
 	#marcPic img { width: 110px; height: 110px; display: block; position: relative; left: 0px; top: 0px; max-width: inherit; }
-	#wb_element_instance2 { top: 80px; left: 130px; min-width: 390px; width: 390px; min-height: 57px; height: 57px; display: block; }
-	#wb_element_instance3 { top: 20px; left: 11px; min-width: 410px; width: 410px; min-height: 24px; height: 24px; display: block; }
+	#smallScatterVolt { top: 80px; left: 130px; min-width: 390px; width: 390px; min-height: 57px; height: 57px; display: block; }
+	#footer { top: 20px; left: 11px; min-width: 410px; width: 410px; min-height: 24px; height: 24px; display: block; }
 	#aboutLine { top: 700px; left: 0px; min-width: 982px; width: 982px; min-height: 40px; height: 40px; display: block; }
 	#aboutMeTitle { top: 660px; left: 0px; min-width: 970px; width: 970px; min-height: 48px; height: 48px; display: block; }
 	#aboutDesc { top: 740px; left: 30px; min-width: 960px; width: 960px; min-height: 297px; height: 297px; display: block; }
@@ -138,9 +134,7 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 	#video3 iframe { width: 224px; height: 126px; }
 	#video4 { top: 480px; left: 700px; min-width: 190px; width: 190px; min-height: 160px; height: 160px; display: block; }
 	#video4 iframe { width: 224px; height: 126px; }
-	#wb_element_instance19 { top: 460px; left: 10px; min-width: 90px; width: 90px; min-height: 24px; height: 24px; display: block; }
-	#wb_element_instance20 { top: 1060px; left: 250px; min-width: 240px; width: 240px; min-height: 450px; height: 450px; display: block; }
-	#wb_element_instance21 { top: 1540px; left: 0px; display: block; }
+	#mostRecent { top: 460px; left: 10px; min-width: 90px; width: 90px; min-height: 24px; height: 24px; display: block; }
 	#wb_element_instance22 { top: 64px; left: 0px; display: block; }
 }
 
@@ -155,8 +149,8 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 	#navBar { top: 80px; left: 510px; min-width: 690px; width: 690px; min-height: 72px; height: 72px; display: block; }
 	#marcPic { top: 50px; left: 0px; min-width: 120px; width: 120px; min-height: 130px; height: 130px; display: block; overflow: hidden; }
 	#marcPic img { width: 130px; height: 130px; display: block; position: relative; left: 0px; top: 0px; max-width: inherit; }
-	#wb_element_instance2 { top: 90px; left: 140px; min-width: 320px; width: 320px; min-height: 68px; height: 68px; display: block; }
-	#wb_element_instance3 { top: 20px; left: 10px; min-width: 450px; width: 450px; min-height: 24px; height: 24px; display: block; }
+	#smallScatterVolt { top: 90px; left: 140px; min-width: 320px; width: 320px; min-height: 68px; height: 68px; display: block; }
+	#footer { top: 20px; left: 10px; min-width: 450px; width: 450px; min-height: 24px; height: 24px; display: block; }
 	#aboutLine { top: 890px; left: 0px; min-width: 1200px; width: 1200px; min-height: 40px; height: 40px; display: block; }
 	#aboutMeTitle { top: 840px; left: 0px; min-width: 1180px; width: 1180px; min-height: 57px; height: 57px; display: block; }
 	#aboutDesc { top: 920px; left: 20px; min-width: 1180px; width: 1180px; min-height: 353px; height: 353px; display: block; }
@@ -181,10 +175,6 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 	#video3 iframe { width: 304px; height: 171px; }
 	#video4 { top: 610px; left: 930px; min-width: 304px; width: 304px; min-height: 171px; height: 171px; display: block; }
 	#video4 iframe { width: 304px; height: 171px; }
-
-
-	#wb_element_instance19 { top: 590px; left: 10px; min-width: 90px; width: 90px; min-height: 24px; height: 24px; display: block; }
-	#wb_element_instance20 { top: 1300px; left: 750px; min-width: 240px; width: 240px; min-height: 620px; height: 620px; display: block; }
-	#wb_element_instance21 { top: 1540px; left: 0px; display: block; }
+	#mostRecent { top: 590px; left: 10px; min-width: 90px; width: 90px; min-height: 24px; height: 24px; display: block; }
 	#wb_element_instance22 { top: 64px; left: 0px; display: block; }
 }
