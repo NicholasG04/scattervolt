@@ -1,3 +1,23 @@
+/* NICK FORM STUFF */
+
+#contactForm {
+	z-index: 999;
+	margin-top: 200px;
+	padding: 5%;
+	background: #ffffff;
+	border: 9px solid #f2f2f2;
+}
+
+@media  only screen and (min-device-width: 768px)
+{
+    #contactForm { max-width: 520px; margin: 150px auto auto auto; }
+}
+
+h1, p { text-align: center; }
+input, textarea , button { width: 100%; }
+textarea { height: 200px; }
+
+/* END NICK FORM STUFF */
 
 #wb_header { height: 200px; }
 #wb_header > .wb_cont_bg { background: transparent none repeat left top; background-size: auto auto; }
@@ -35,9 +55,10 @@ body, .wb_sbg { min-width: 320px; min-height: 1384px; }
 #wb_element_instance86 { top: 1000px; left: 0px; display: block; z-index: 9000; }
 #wb_element_instance87 { top: 64px; left: 0px; display: block; z-index: 9999; }
 
-#contactForm {
-	z-index: 999;
-}
+
+
+
+
 
 
 @media (min-width: 768px) {
