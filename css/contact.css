@@ -5,7 +5,7 @@
 #wb_main > .wb_cont_bg { background: transparent none repeat left top; background-size: auto auto; }
 #wb_footer { height: 74px; }
 #wb_footer > .wb_cont_bg { background: transparent none repeat-x scroll left top; }
-body { background: transparent url("../gallery/bg.jpg") no-repeat scroll center top; background-size: auto auto; }
+body { background: transparent url("../gallery/bg.jpg") no-repeat scroll center top; background-size: auto auto; z-index: -1; }
 .wb_sbg { background: transparent none repeat-x scroll left top; }
 body, .wb_sbg { min-width: 320px; min-height: 1384px; }
 .wb_cont_inner { width: 320px; height: 100%; }
@@ -34,6 +34,10 @@ body, .wb_sbg { min-width: 320px; min-height: 1384px; }
 #wb_element_instance85 { top: 200px; left: 0; right: 0; min-height: 860px; height: 860px; display: block; z-index: 99; }
 #wb_element_instance86 { top: 1000px; left: 0px; display: block; z-index: 9000; }
 #wb_element_instance87 { top: 64px; left: 0px; display: block; z-index: 9999; }
+
+#contactForm {
+	z-index: 999;
+}
 
 
 @media (min-width: 768px) {
