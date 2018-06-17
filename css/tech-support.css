@@ -5,7 +5,7 @@
 #wb_main > .wb_cont_bg { background: transparent none repeat left top; background-size: auto auto; }
 #wb_footer { height: 74px; }
 #wb_footer > .wb_cont_bg { background: transparent none repeat-x scroll left top; }
-body { background: transparent url("https://cdn.discordapp.com/attachments/282973572412997633/409807915902435338/pixlr_20180204152916656-1-1-1.jpg") no-repeat scroll center top; background-size: 1920px 200px; }
+body { background: transparent url("https://cdn.discordapp.com/attachments/282973572412997633/409807915902435338/pixlr_20180204152916656-1-1-1.jpg") no-repeat scroll center top; background-size: 1920px auto; }
 .wb_sbg { background: transparent none repeat-x scroll left top; }
 body, .wb_sbg { min-width: 320px; min-height: 1354px; }
 .wb_cont_inner { width: 320px; height: 100%; }
