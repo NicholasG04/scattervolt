@@ -30,7 +30,7 @@
     <!--[if lt IE 9]>
 	<script src="js/html5shiv.min.js"></script>
     <![endif]-->
-    
+
 
     <!-- Piwik -->
     <script type="text/javascript">
@@ -87,6 +87,21 @@
     </style>
 
     <!-- End Nick's Animation Stuff -->
+
+    <!-- Start Nick's Auto Updater-->
+    <script>
+        $( document ).ready(function() {
+               var YouTubeAPI = "https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCl6ulw6cn3npwxkg_56Ee_w&maxResults=4&order=date&type=video&key=AIzaSyDRXvrc71eD6llQCW7z79Pgcd8z4VSUS-g";
+                $.getJSON( YouTubeAPI, function( data ){
+                    $.each( data.items, function(i, item) {
+                        $(".youtube-player").eq(i).attr('src', "https://www.youtube.com/embed/" + item.id.videoId + "?controls=1&amp;amp;showinfo=1&amp;amp;rel=1");
+                    })
+                })
+
+        });
+
+    </script>
+    <!-- End Nick's Auto Updater-->
 
 </head>
 
