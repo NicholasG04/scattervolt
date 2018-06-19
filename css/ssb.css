@@ -35,6 +35,8 @@ body, .wb_sbg { min-width: 320px; min-height: 1384px; }
 #wb_element_instance86 { top: 1000px; left: 0px; display: block; z-index: 9000; }
 #wb_element_instance87 { top: 64px; left: 0px; display: block; z-index: 9999; }
 
+#infoLink { color: limegreen; text-decoration: underline;}
+
 
 @media (min-width: 768px) {
 	#wb_header { height: 200px; }
