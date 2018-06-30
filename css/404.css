@@ -11,8 +11,6 @@ body, .wb_sbg { min-width: 320px; min-height: 1354px; }
 .wb_cont_inner { width: 320px; height: 100%; }
 .wb_cont_bg { width: 320px; margin-left: -160px; }
 .root { height: 1304px; overflow: hidden; min-height: 1354px; }
-#wb_element_instance54 p:last-child { margin-bottom: 0; }
-#wb_element_instance54 { top: 40px; left: 130px; min-width: 160px; width: 160px; min-height: 35px; height: 35px; display: block; z-index: 260; }
 #heading p:last-child { margin-bottom: 0; }
 #heading { top: 10px; left: 10px; min-width: 305px; width: 305px; min-height: 52px; height: 52px; display: block; z-index: 95; }
 #subtitle p:last-child { margin-bottom: 0; }
