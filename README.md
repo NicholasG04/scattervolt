@@ -1,8 +1,7 @@
 # ScatterVolt
 ScatterVolt Website
 
-v1 - Grabbed from FTP, not from GitHub.
-
+This branch (live) now contains: v2.0, copied from master.
 
 
 Be sure to have notifications on for #website-updates
