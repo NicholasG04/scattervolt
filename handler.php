@@ -18,9 +18,6 @@ $validator->fields(['Name','Email'])->areRequired()->maxLength(50);
 $validator->field('Email')->isEmail();
 $validator->field('Message')->maxLength(6000);
 
-
-
-
 $pp->sendEmailTo('contact@scattervolt.com'); // ← Your email here
 
 echo $pp->process($_POST);

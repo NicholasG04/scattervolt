@@ -6,23 +6,23 @@ use FormGuide\Handlx\Microtemplate;
 use Gregwar\Captcha\CaptchaBuilder;
 
 /**
- * FormHandler 
+ * FormHandler
  *  A wrapper class that handles common form handling tasks
  *  	- handles Form validations using PHPFormValidator class
- *  	- sends email using PHPMailer 
+ *  	- sends email using PHPMailer
  *  	- can handle captcha validation
  *  	- can handle file uploads and attaching the upload to email
- *  	
+ *
  *  ==== Sample usage ====
  *   $fh = FormHandler::create()->validate(function($validator)
  *   		{
  *   	 		$validator->fields(['name','email'])
  *   	 				  ->areRequired()->maxLength(50);
  *   	       	$validator->field('email')->isEmail();
- *   	       	
+ *
  *           })->useMailTemplate(__DIR__.'/templ/email.php')
  *           ->sendEmailTo('you@website.com');
- *           
+ *
  *   $fh->process($_POST);
  */
 class FormHandler
@@ -45,10 +45,10 @@ class FormHandler
 		$this->mailer->Subject = "Contact Form Submission ";
 
 		$host = isset($_SERVER['SERVER_NAME'])?$_SERVER['SERVER_NAME']:'localhost';
-        $from_email ='forms@'.$host;
-   		$this->mailer->setFrom($from_email,'Contact Form',false);  
+        $from_email ='no-reply@'.$host;
+   		$this->mailer->setFrom($from_email,'Contact Form',false);
 
-   		$this->captcha = false;   
+   		$this->captcha = false;
 
    		$this->attachments = [];
 
@@ -70,9 +70,9 @@ class FormHandler
 		}
 		else
 		{
-			$this->emails[] = $email_s;	
+			$this->emails[] = $email_s;
 		}
-		
+
 		return $this;
 	}
 
@@ -99,7 +99,7 @@ class FormHandler
 
 	/**
 	 * [validate add Validations. This function takes a call back function which receives the PHPFormValidator object]
-	 * @param  function $validator_fn The funtion gets a validator parameter using which, you can add validations 
+	 * @param  function $validator_fn The funtion gets a validator parameter using which, you can add validations
 	 */
 	public function validate($validator_fn)
 	{
@@ -113,7 +113,7 @@ class FormHandler
 		$this->recaptcha->enable(true);
 		if($config_fn)
 		{
-			$config_fn($this->recaptcha);	
+			$config_fn($this->recaptcha);
 		}
 		return $this;
 	}
@@ -200,10 +200,10 @@ class FormHandler
 				return json_encode([
 					'result'=>'error_sending_email',
 					'errors'=> ['mail'=> $this->mailer->ErrorInfo]
-					]);			
+					]);
 			}
 		}
-		
+
 		return json_encode(['result'=>'success']);
 	}
 
@@ -226,7 +226,7 @@ class FormHandler
 				return json_encode([
 						'result'=>'captcha_error',
 						'errors'=>['captcha'=>'Captcha code does not match']
-						]);		
+						]);
 			}
 		}
 		return true;
@@ -235,7 +235,7 @@ class FormHandler
 
 	private function attach_files()
 	{
-		
+
 		foreach($this->attachments as $file_field)
 		{
 			if (!array_key_exists($file_field, $_FILES))
@@ -246,7 +246,7 @@ class FormHandler
 
     		$uploadfile = tempnam(sys_get_temp_dir(), sha1($filename));
 
-    		if (!move_uploaded_file($_FILES[$file_field]['tmp_name'], 
+    		if (!move_uploaded_file($_FILES[$file_field]['tmp_name'],
     			$uploadfile))
     		{
     			continue;
