@@ -22,23 +22,40 @@
 
 /* NICK STUFF */
 
-/*nav*/
+
 #navBar { top: 80px; left: 90px; min-width: 230px; width: 230px; min-height: 24px; height: 24px; display: block; z-index: 264; }
 #navBar, #navBar ul { text-align: center; }
 #navBar li { margin: 0px 0px 0px 20px; }
 #navBar li a { text-transform: uppercase; padding: 10px 20px 10px 0px; font: normal bold 14px Roboto,Arial,Helvetica,sans-serif; text-decoration: none; color: #5ab1c7; }
 #navBar li.active > a { font: normal bold 14px Roboto,Arial,Helvetica,sans-serif; color: #ffc800; }
+#marcPic { top: 40px; left: 10px; min-width: 90px; width: 90px; min-height: 100px; height: 100px; display: block; z-index: 259; overflow: hidden; }
+#marcPic img { width: 100px; height: 100px; display: block; position: relative; left: 0px; top: 0px; max-width: inherit; }
+#smallScatterVolt p:last-child { margin-bottom: 0; }
+#smallScatterVolt { top: 40px; left: 130px; min-width: 160px; width: 160px; min-height: 35px; height: 35px; display: block; z-index: 260; }
+#footer p:last-child { margin-bottom: 0; }
+#footer { top: 20px; left: 10px; min-width: 190px; width: 190px; min-height: 30px; height: 30px; display: block; z-index: 267; }
+
 
 @media (min-width: 768px) {
 	#navBar { top: 70px; left: 340px; min-width: 428px; width: 428px; min-height: 72px; height: 72px; display: block; }
+	#marcPic { top: 50px; left: 10px; min-width: 100px; width: 100px; min-height: 100px; height: 100px; display: block; }
+	#marcPic img { width: 100px; height: 100px; display: block; position: static; left: 0px; top: 0px; }
+	#smallScatterVolt { top: 80px; left: 120px; min-width: 230px; width: 230px; min-height: 46px; height: 46px; display: block; }
+	#footer { top: 20px; left: 10px; min-width: 250px; width: 250px; min-height: 30px; height: 30px; display: block; }
+	
 }
 
 @media (min-width: 992px) {
 	#navBar { top: 70px; left: 570px; min-width: 420px; width: 420px; min-height: 108px; height: 108px; display: block; }
+	#marcPic { top: 50px; left: 20px; min-width: 100px; width: 100px; min-height: 110px; height: 110px; display: block; overflow: hidden; }
+	#marcPic img { width: 110px; height: 110px; display: block; position: relative; left: 0px; top: 0px; max-width: inherit; }
+	#smallScatterVolt { top: 80px; left: 130px; min-width: 390px; width: 390px; min-height: 57px; height: 57px; display: block; }
+	#footer { top: 20px; left: 11px; min-width: 410px; width: 410px; min-height: 24px; height: 24px; display: block; }
+	
 }
 
 
-/*endNav*/
+/* END NICK STUFF*/
 
 
 .wb-stl-pagetitle { font: normal normal 56px /*'Bebas Neue',BebasNeueRegular,*/Arial,Helvetica,sans-serif; color: #ffffff; text-decoration: none; text-align: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: none; }
