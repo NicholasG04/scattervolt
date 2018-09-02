@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Home</title>
-    <base href="https://scattervolt.com/" />
+    <!--<base href="https://scattervolt.com/" />-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -106,53 +106,21 @@
     </script>
     <!-- End Nick's Auto Updater-->
 
+    <script>
+        $(function(){
+            $("#headerFrame").load("frames/header.html")
+        });
+    </script>
+
 
 </head>
 
 
 <body>
     <div class="root">
-        <!-- Start Nav Bar -->
-        <div class="vbox wb_container" id="wb_header">
-            <div class="wb_cont_inner">
-                <div id="navBar" class="wb_element wb-menu animated fadeInDown">
-                    <ul class="hmenu">
-                        <li class="active"><a href="index.html" target="_self">Home</a></li>
-                    
-                        <li><a href="contact.html" target="_self">Contact Me</a></li>
-
-                        <li><a href="applications.html" target="_self">Discord Applications</a></li>
-
-                        <li><a href="ssb.html" target="_self">Super Smash Builds!</a></li>
-
-                        <li><a href="https://scattervolt.com/forum" target="_blank">Forum</a></li>
-
-                        <li><a href="404.html" target="_blank">Merch</a></li>
-                    </ul>
-                    <div class="clearfix"></div>
-                </div>
-        <!-- End Nav Bar -->
-
-                <div id="marcPic" class="wb_element wb_element_picture">
-                    <a href="#">
-                        <img class="fadeInDown animated" alt="Marc" src="gallery/marc.jpg">
-                    </a>
-                </div>
-                <div id="smallScatterVolt" class="wb_element" style=" line-height: normal;">
-                    <h5 class="wb-stl-subtitle fadeInDown  animated">
-                        <strong>
-                            <a href="#">
-                                <span style="color:rgba(255,200,0,1);">
-                                    <span class="wb_tr_ok">ScatterVolt</span>
-                                </span>
-                            </a>
-                        </strong>
-                    </h5>
-                </div>
-            </div>
-            <div class="wb_cont_outer"></div>
-            <div class="wb_cont_bg"></div>
-        </div>
+       <div id="headerFrame">
+           
+       </div>
         <!-- All the About Me stuff -->
         <div class="vbox wb_container" id="wb_main">
 
