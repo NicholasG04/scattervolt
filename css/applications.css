@@ -5,7 +5,7 @@
 #wb_main > .wb_cont_bg { background: transparent none repeat left top; background-size: auto auto; }
 #wb_footer { height: 74px; }
 #wb_footer > .wb_cont_bg { background: transparent none repeat-x scroll left top; }
-body { background: transparent url("https://cdn.discordapp.com/attachments/282973572412997633/409807915902435338/pixlr_20180204152916656-1-1-1.jpg") no-repeat scroll center top; background-size: 100% 50%; }
+body { background: transparent url("../gallery/bg.jpg") no-repeat scroll center top; background-size: 100% 50%; }
 .wb_sbg { background: transparent none repeat-x scroll left top; }
 body, .wb_sbg { min-width: 320px; min-height: 854px; }
 .wb_cont_inner { width: 320px; height: 100%; }
@@ -26,7 +26,7 @@ body, .wb_sbg { min-width: 320px; min-height: 854px; }
 #wb_element_instance33 p:last-child { margin-bottom: 0; }
 #wb_element_instance33 { top: 40px; left: 130px; min-width: 160px; width: 160px; min-height: 35px; height: 35px; display: block; z-index: 260; }
 #wb_element_instance34 p:last-child { margin-bottom: 0; }
-#wb_element_instance34 { top: 20px; left: 10px; min-width: 190px; width: 190px; min-height: 30px; height: 30px; display: block; z-index: 267; }
+#wb_element_instance34 { top: -25px; left: 10px; min-width: 190px; width: 190px; min-height: 30px; height: 30px; display: block; z-index: 267; }
 #wb_element_instance35 p:last-child { margin-bottom: 0; }
 #wb_element_instance35 { top: 20px; left: 10px; min-width: 305px; width: 305px; min-height: 35px; height: 35px; display: block; z-index: 89; }
 #wb_element_instance36 p:last-child { margin-bottom: 0; }

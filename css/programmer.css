@@ -5,7 +5,7 @@
 #wb_main > .wb_cont_bg { background: transparent none repeat left top; background-size: auto auto; }
 #wb_footer { height: 74px; }
 #wb_footer > .wb_cont_bg { background: transparent none repeat-x scroll left top; }
-body { background: transparent url("https://cdn.discordapp.com/attachments/282973572412997633/409807915902435338/pixlr_20180204152916656-1-1-1.jpg") no-repeat scroll center top; background-size: auto auto; }
+body { background: transparent url("../gallery/bg.jpg") no-repeat scroll center top; background-size: auto auto; }
 .wb_sbg { background: transparent none repeat-x scroll left top; }
 body, .wb_sbg { min-width: 320px; min-height: 1354px; }
 .wb_cont_inner { width: 320px; height: 100%; }
@@ -26,12 +26,12 @@ body, .wb_sbg { min-width: 320px; min-height: 1354px; }
 #wb_element_instance63 p:last-child { margin-bottom: 0; }
 #wb_element_instance63 { top: 40px; left: 130px; min-width: 160px; width: 160px; min-height: 35px; height: 35px; display: block; z-index: 260; }
 #wb_element_instance64 p:last-child { margin-bottom: 0; }
-#wb_element_instance64 { top: 20px; left: 10px; min-width: 190px; width: 190px; min-height: 30px; height: 30px; display: block; z-index: 267; }
+#wb_element_instance64 { top: -25px; left: 10px; min-width: 190px; width: 190px; min-height: 30px; height: 30px; display: block; z-index: 267; }
 #wb_element_instance65 p:last-child { margin-bottom: 0; }
-#wb_element_instance65 { top: 10px; left: 10px; min-width: 305px; width: 305px; min-height: 52px; height: 52px; display: block; z-index: 93; }
+#wb_element_instance65 { top: 25px; left: 10px; min-width: 305px; width: 305px; min-height: 52px; height: 52px; display: block; z-index: 93; }
 #wb_element_instance66 p:last-child { margin-bottom: 0; }
-#wb_element_instance66 { top: 50px; left: 0px; min-width: 320px; width: 320px; min-height: 66px; height: 66px; display: block; z-index: 94; }
-#wb_element_instance67 { top: 120px; left: 0; right: 0; min-height: 860px; height: 860px; display: block; z-index: 97; }
+#wb_element_instance66 { top: 100px; left: 0px; min-width: 320px; width: 320px; min-height: 66px; height: 66px; display: block; z-index: 94; }
+#wb_element_instance67 { top: 175px; left: 0; right: 0; min-height: 860px; height: 860px; display: block; z-index: 97; }
 #wb_element_instance68 { top: 1000px; left: 0px; display: block; z-index: 9000; }
 #wb_element_instance69 { top: 64px; left: 0px; display: block; z-index: 9999; }
 
@@ -50,7 +50,7 @@ body, .wb_sbg { min-width: 320px; min-height: 1354px; }
 	#wb_element_instance63 { top: 80px; left: 120px; min-width: 230px; width: 230px; min-height: 46px; height: 46px; display: block; }
 	#wb_element_instance64 { top: 20px; left: 10px; min-width: 250px; width: 250px; min-height: 30px; height: 30px; display: block; }
 	#wb_element_instance65 { top: 10px; left: 10px; min-width: 750px; width: 750px; min-height: 63px; height: 63px; display: block; }
-	#wb_element_instance66 { top: 70px; left: 0px; min-width: 992px; width: 992px; min-height: 24px; height: 24px; display: block; }
+	#wb_element_instance66 { top: 70px; left: 0px; min-width: 768px; width: 768px; min-height: 24px; height: 24px; display: block; }
 	#wb_element_instance67 { top: 120px; left: 0; right: 0; min-height: 860px; height: 860px; display: block; }
 	#wb_element_instance68 { top: 1000px; left: 0px; display: block; }
 	#wb_element_instance69 { top: 64px; left: 0px; display: block; }

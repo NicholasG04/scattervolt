@@ -31,8 +31,8 @@ v#.# = Archives of previous releases (cloned from live for each version)
 
 6: Goto 1
 
-## If hotfix necessary
+## If a hotfix is necessary
 
 1: Bug is fixed in live
 
-2: Release is made
+2: Hotfix is included as part of next archived release
