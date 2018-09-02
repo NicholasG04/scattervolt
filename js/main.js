@@ -1,4 +1,13 @@
 
+$(function(){
+	$("#headerFrame").load("frames/header.html")
+});
+
+
+//OLD SHITTY USELESS JS BELOW!!
+
+
+
 function wb_form_validateForm(formId, values, errors) {
 	var form = $("input[name='wb_form_id'][value='" + formId + "']").parent();
 	if (!form || form.length === 0 || !errors) return;
