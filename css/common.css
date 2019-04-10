@@ -46,7 +46,7 @@
 }
 
 @media (min-width: 992px) {
-	#navBar { top: 70px; left: 570px; min-width: 420px; width: 420px; min-height: 108px; height: 108px; display: block; }
+	#navBar { top: 80px; left: 510px; min-width: 690px; width: 690px; min-height: 72px; height: 72px; display: block; }
 	#marcPic { top: 50px; left: 20px; min-width: 100px; width: 100px; min-height: 110px; height: 110px; display: block; overflow: hidden; }
 	#marcPic img { width: 110px; height: 110px; display: block; position: relative; left: 0px; top: 0px; max-width: inherit; }
 	#smallScatterVolt { top: 80px; left: 130px; min-width: 390px; width: 390px; min-height: 57px; height: 57px; display: block; }

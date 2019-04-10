@@ -79,6 +79,5 @@ body, .wb_sbg { min-width: 320px; min-height: 1384px; }
 	.root { height: 1264px; overflow: visible; min-height: 1314px; }
 	#header { top: 0px; left: 10px; min-width: 1180px; width: 1180px; min-height: 85px; height: 85px; display: block; }
 	#subtitle { top: 70px; left: 0px; min-width: 1200px; width: 1200px; min-height: 34px; height: 34px; display: block; }
-	#footer1 { top: 1000px; left: 0px; display: block; }
 	#footer2 { top: 64px; left: 0px; display: block; }
 }

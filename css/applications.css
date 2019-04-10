@@ -5,7 +5,7 @@
 #wb_main > .wb_cont_bg { background: transparent none repeat left top; background-size: auto auto; }
 #wb_footer { height: 74px; }
 #wb_footer > .wb_cont_bg { background: transparent none repeat-x scroll left top; }
-body { background: transparent url("../gallery/bg.jpg") no-repeat scroll center top; background-size: 100% 50%; }
+body { background: transparent url("../gallery/bg.jpg") no-repeat scroll center top; background-size: cover; background-position: 0 -450px;}
 .wb_sbg { background: transparent none repeat-x scroll left top; }
 body, .wb_sbg { min-width: 320px; min-height: 854px; }
 .wb_cont_inner { width: 320px; height: 100%; }

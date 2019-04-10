@@ -133,7 +133,6 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 	.wb_cont_inner { width: 1200px; }
 	.wb_cont_bg { width: 1200px; margin-left: -600px; }
 	.root { height: 1500px; overflow: visible; min-height: 1500px; }
-	#navBar { top: 80px; left: 510px; min-width: 690px; width: 690px; min-height: 72px; height: 72px; display: block; }
 	#marcPic { top: 50px; left: 0px; min-width: 120px; width: 120px; min-height: 130px; height: 130px; display: block; overflow: hidden; }
 	#marcPic img { width: 130px; height: 130px; display: block; position: relative; left: 0px; top: 0px; max-width: inherit; }
 	#smallScatterVolt { top: 90px; left: 140px; min-width: 320px; width: 320px; min-height: 68px; height: 68px; display: block; }
