@@ -26,9 +26,9 @@ body, .wb_sbg { min-width: 320px; min-height: 5200px; }
 #wb_element_instance34 p:last-child { margin-bottom: 0; }
 #wb_element_instance34 { top: -25px; left: 10px; min-width: 190px; width: 190px; min-height: 30px; height: 30px; display: block; z-index: 267; }
 #header p:last-child { margin-bottom: 0; }
-#header { top: 25px; left: 10px; min-width: 305px; width: 305px; min-height: 35px; height: 35px; display: block; z-index: 89; }
+#header { top: 30px; left: 10px; min-width: 305px; width: 305px; min-height: 35px; height: 35px; display: block; z-index: 89; }
 #subtitle p:last-child { margin-bottom: 0; }
-#subtitle { top: 70px; left: 20px; min-width: 280px; width: 280px; min-height: 88px; height: 88px; display: block; z-index: 90; }
+#subtitle { top: 90px; left: 20px; min-width: 280px; width: 280px; min-height: 88px; height: 88px; display: block; z-index: 90; }
 #wb_element_instance41 { top: 490px; left: 0px; display: block; z-index: 9000; }
 #wb_element_instance42 { top: 64px; left: 0px; display: block; z-index: 9999; }
 
@@ -45,23 +45,43 @@ body, .wb_sbg { min-width: 320px; min-height: 5200px; }
 .items {
     width: 250px;
     height: 275px;
-    background-color: #ffc800;
+    background-color: white;
     margin: 0 auto 0 auto;
     text-align: center;
     font-family: 'Century Gothic',arial,sans-serif;
+    border: 0;
+    border-radius: 15px;
 }
 h3 {
     font-size: 28px;
     position: relative;
-    top: -20px;
+    top: -25px;
 }
 .desc {
     position: relative;
-    top: -40px;
+    top: -30px;
 }
 .items > img {
     position: relative;
     top: -40px;
+}
+
+.free-ship {
+    border: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: green;
+    width: 150px;
+    height: 30px;
+    margin: 0 auto 0 auto;
+    z-index: 900;
+}
+
+.free-ship > p {
+    color: white;
+    margin: 0;
+    position: relative;
+    top: 5px;
 }
 
 @media (min-width: 768px) {
@@ -121,7 +141,7 @@ h3 {
 	#wb_element_instance33 { top: 90px; left: 140px; min-width: 320px; width: 320px; min-height: 68px; height: 68px; display: block; }
 	#wb_element_instance34 { top: 20px; left: 10px; min-width: 450px; width: 450px; min-height: 24px; height: 24px; display: block; }
 	#header { top: 0px; left: 10px; min-width: 1180px; width: 1180px; min-height: 68px; height: 68px; display: block; }
-	#subtitle { top: 80px; left: 0px; min-width: 1200px; width: 1200px; min-height: 68px; height: 68px; display: block; }
+	#subtitle { top: 100px; left: 0px; min-width: 1200px; width: 1200px; min-height: 68px; height: 68px; display: block; }
 	#wb_element_instance41 { top: 490px; left: 0px; display: block; }
     #wb_element_instance42 { top: 64px; left: 0px; display: block; }
     
