@@ -38,14 +38,14 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 #discordBtn { top: 270px; left: 240px; min-width: 70px; width: 70px; min-height: 60px; height: 60px; display: block; z-index: 156; overflow: hidden; }
 #discordBtn img { width: 70px; height: 70px; display: block; position: relative; left: 0px; top: 0px; max-width: inherit; }
 #wb_element_instance14 { top: 1600px; left: 20px; min-width: 280px; width: 280px; min-height: 470px; height: 470px; display: block; z-index: 249; overflow: hidden; overflow-y: auto; }
-#video1 { top: 620px; left: 0px; min-width: 304px; width: 304px; min-height: 171px; height: 171px; display: block; z-index: 250; }
-#video1 iframe { width: 304px; height: 171px; }
-#video2 { top: 800px; left: 0px; min-width: 304px; width: 304px; min-height: 171px; height: 171px; display: block; z-index: 255; }
-#video2 iframe { width: 304px; height: 171px; }
-#video3 { top: 980px; left: 0px; min-width: 304px; width: 304px; min-height: 171px; height: 171px; display: block; z-index: 254; }
-#video3 iframe { width: 304px; height: 171px; }
-#video4 { top: 1160px; left: 0px; min-width: 304px; width: 304px; min-height: 171px; height: 171px; display: block; z-index: 253; }
-#video4 iframe { width: 304px; height: 171px; }
+#video1 { top: 620px; left: 0px; min-width: 368px; width:368px; min-height: 207px; height: 207px; display: block; z-index: 250; }
+#video1 iframe { width: 368px; height: 207px; }
+#video2 { top: 830px; left: 0px; min-width: 368px; width:368px; min-height: 207px; height: 207px; display: block; z-index: 255; }
+#video2 iframe { width: 368px; height: 207px; }
+#video3 { top: 1040px; left: 0px; min-width: 368px; width:368px; min-height: 207px; height: 207px; display: block; z-index: 254; }
+#video3 iframe { width: 368px; height: 207px; }
+/*#video4 { top: 1160px; left: 0px; min-width: 368px; width:368px; min-height: 207px; height: 207px; display: block; z-index: 253; }
+#video4 iframe { width: 368px; height: 207px; }*/
 #mostRecent p:last-child { margin-bottom: 0; }
 #mostRecent { top: 600px; left: 10px; min-width: 90px; width: 90px; min-height: 24px; height: 24px; display: block; z-index: 256; }
 #wb_element_instance22 { top: 64px; left: 0px; display: block; z-index: 9999; }
@@ -60,9 +60,9 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 	.wb_cont_bg { width: 768px; margin-left: -384px; }
 	.root { height: 1100px; overflow: visible; min-height: 1100px; }
 
-	#aboutLine { top: 580px; left: 0px; min-width: 768px; width: 768px; min-height: 40px; height: 40px; display: block; }
-	#aboutMeTitle { top: 560px; left: 0px; min-width: 750px; width: 750px; min-height: 38px; height: 38px; display: block; }
-	#aboutDesc { top: 610px; left: 0px; min-width: 760px; width: 760px; min-height: 241px; height: 241px; display: block; }
+	#aboutLine { top: 655px; left: 0px; min-width: 768px; width: 768px; min-height: 40px; height: 40px; display: block; }
+	#aboutMeTitle { top: 640px; left: 0px; min-width: 750px; width: 750px; min-height: 38px; height: 38px; display: block; }
+	#aboutDesc { top: 680px; left: 0px; min-width: 760px; width: 760px; min-height: 241px; height: 241px; display: block; }
 	#subtitle { top: 150px; left: 10px; min-width: 750px; width: 750px; min-height: 27px; height: 27px; display: block; }
 	#businessContactBtn { top: 230px; left: 240px; min-width: 250px; width: 250px; min-height: 70px; height: 70px; display: block; }
 	#businessContactBtn .wb_button { width: 250px; height: 70px; }
@@ -76,14 +76,15 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 	#discordBtn { top: 220px; left: 610px; min-width: 90px; width: 90px; min-height: 80px; height: 80px; display: block; overflow: hidden; }
 	#discordBtn img { width: 90px; height: 90px; display: block; position: relative; left: 0px; top: -10px; max-width: inherit; }
 	#wb_element_instance14 { top: 860px; left: 20px; min-width: 250px; width: 250px; min-height: 550px; height: 550px; display: block; }
-	#video1 { top: 430px; left: 10px; min-width: 160px; width: 160px; min-height: 120px; height: 120px; display: block; }
-	#video1 iframe { width: 176px; height: 99px; }
-	#video2 { top: 430px; left: 200px; min-width: 160px; width: 160px; min-height: 120px; height: 120px; display: block; }
-	#video2 iframe { width: 176px; height: 99px; }
-	#video3 { top: 430px; left: 390px; min-width: 150px; width: 150px; min-height: 120px; height: 120px; display: block; }
-	#video3 iframe { width: 176px; height: 99px; }
-	#video4 { top: 430px; left: 580px; min-width: 160px; width: 160px; min-height: 120px; height: 120px; display: block; }
-	#video4 iframe { width: 176px; height: 99px; }
+	#video1 { top: 430px; left: 10px; min-width: 368px; width: 368px; min-height: 207px; height: 207px; display: block; }
+	#video1 iframe { width: 368px; height: 207px; }
+	#video2 { top: 430px; left: 380px; min-width: 368px; width: 368px; min-height: 207px; height: 207px; display: block; }
+	#video2 iframe { width: 368px; height: 207px; }
+	/*#video3 { top: 430px; left: 390px; min-width: 150px; width: 150px; min-height: 120px; height: 120px; display: block; }
+	#video3 iframe { width: 368px; height: 207px; }*/
+	#video3 { display: none; }
+	/*#video4 { top: 430px; left: 580px; min-width: 368px; width: 368px; min-height: 207px; height: 207px; display: block; }
+	#video4 iframe { width: 368px; height: 207px; }*/
 	#mostRecent { top: 410px; left: 10px; min-width: 90px; width: 90px; min-height: 24px; height: 24px; display: block; }
 	#wb_element_instance22 { top: 64px; left: 0px; display: block; }
 }
@@ -97,10 +98,10 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 	.wb_cont_bg { width: 992px; margin-left: -496px; }
 	.root { height: 1300px; overflow: visible; min-height: 1300px; }
 	
-	#aboutLine { top: 700px; left: 0px; min-width: 982px; width: 982px; min-height: 40px; height: 40px; display: block; }
-	#aboutMeTitle { top: 660px; left: 0px; min-width: 970px; width: 970px; min-height: 48px; height: 48px; display: block; }
-	#aboutDesc { top: 740px; left: 30px; min-width: 960px; width: 960px; min-height: 297px; height: 297px; display: block; }
-	#subtitle { top: 140px; left: 10px; min-width: 970px; width: 970px; min-height: 34px; height: 34px; display: block; }
+	#aboutLine { top: 735px; left: 0px; min-width: 982px; width: 982px; min-height: 40px; height: 40px; display: block; }
+	#aboutMeTitle { top: 700px; left: 0px; min-width: 970px; width: 970px; min-height: 48px; height: 48px; display: block; }
+	#aboutDesc { top: 770px; left: 30px; min-width: 960px; width: 960px; min-height: 297px; height: 297px; display: block; }
+	#subtitle { top: 180px; left: 10px; min-width: 970px; width: 970px; min-height: 34px; height: 34px; display: block; }
 	#businessContactBtn { top: 210px; left: 350px; min-width: 260px; width: 260px; min-height: 70px; height: 70px; display: block; }
 	#businessContactBtn .wb_button { width: 260px; height: 70px; }
 	#bigScatterVolt { top: -20px; left: 0px; min-width: 990px; width: 990px; min-height: 162px; height: 162px; display: block; }
@@ -113,14 +114,15 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 	#discordBtn { top: 210px; left: 800px; min-width: 110px; width: 110px; min-height: 80px; height: 80px; display: block; overflow: hidden; }
 	#discordBtn img { width: 110px; height: 110px; display: block; position: relative; left: 0px; top: -20px; max-width: inherit; }
 	#wb_element_instance14 { top: 1050px; left: 10px; min-width: 230px; width: 230px; min-height: 470px; height: 470px; display: block; }
-	#video1 { top: 480px; left: 10px; min-width: 210px; width: 210px; min-height: 160px; height: 160px; display: block; }
-	#video1 iframe { width: 224px; height: 126px; }
-	#video2 { top: 480px; left: 240px; min-width: 210px; width: 210px; min-height: 160px; height: 160px; display: block; }
-	#video2 iframe { width: 224px; height: 126px; }
-	#video3 { top: 480px; left: 470px; min-width: 200px; width: 200px; min-height: 160px; height: 160px; display: block; }
-	#video3 iframe { width: 224px; height: 126px; }
-	#video4 { top: 480px; left: 700px; min-width: 190px; width: 190px; min-height: 160px; height: 160px; display: block; }
-	#video4 iframe { width: 224px; height: 126px; }
+	#video1 { top: 480px; left: 50px; min-width: 368px; width: 368px; min-height: 207px; height: 207px; display: block; }
+	#video1 iframe { width: 368px; height: 207px; }
+	#video2 { top: 480px; left: 550px; min-width: 368px; width: 368px; min-height: 207px; height: 207px; display: block; }
+	#video2 iframe { width: 368px; height: 207px; }
+	/*#video3 { top: 480px; left: 470px; min-width: 368px; width: 368px; min-height: 207px; height: 207px; display: block; }
+	#video3 iframe { width: 368px; height: 207px; }*/
+	#video3 { display: none; }
+	/*#video4 { top: 480px; left: 700px; min-width: 190px; width: 190px; min-height: 160px; height: 160px; display: block; }
+	#video4 iframe { width: 368px; height: 207px; }*/
 	#mostRecent { top: 460px; left: 10px; min-width: 90px; width: 90px; min-height: 24px; height: 24px; display: block; }
 	#wb_element_instance22 { top: 64px; left: 0px; display: block; }
 }
@@ -154,14 +156,14 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 	#discordBtn { top: 380px; left: 890px; min-width: 100px; width: 100px; min-height: 70px; height: 70px; display: block; overflow: hidden; }
 	#discordBtn img { width: 100px; height: 100px; display: block; position: relative; left: 0px; top: -20px; max-width: inherit; }
 	#wb_element_instance14 { top: 1280px; left: 20px; min-width: 260px; width: 260px; min-height: 620px; height: 620px; display: block; }
-	#video1 { top: 610px; left: 0px; min-width: 304px; width: 304px; min-height: 171px; height: 171px; display: block; }
-	#video1 iframe { width: 304px; height: 171px; }
-	#video2 { top: 610px; left: 310px; min-width: 304px; width: 304px; min-height: 171px; height: 171px; display: block; }
-	#video2 iframe { width: 304px; height: 171px; }
-	#video3 { top: 610px; left: 620px; min-width: 304px; width: 304px; min-height: 171px; height: 171px; display: block; }
-	#video3 iframe { width: 304px; height: 171px; }
-	#video4 { top: 610px; left: 930px; min-width: 304px; width: 304px; min-height: 171px; height: 171px; display: block; }
-	#video4 iframe { width: 304px; height: 171px; }
+	#video1 { top: 610px; left: 0px; min-width: 368px; width:368px; min-height: 207px; height: 207px; display: block; }
+	#video1 iframe { width: 368px; height: 207px; }
+	#video2 { top: 610px; left: 400px; min-width: 368px; width:368px; min-height: 207px; height: 207px; display: block; }
+	#video2 iframe { width: 368px; height: 207px; }
+	#video3 { top: 610px; left: 800px; min-width: 368px; width:368px; min-height: 207px; height: 207px; display: block; }
+	#video3 iframe { width: 368px; height: 207px; }
+	/*#video4 { top: 610px; left: 930px; min-width: 368px; width:368px; min-height: 207px; height: 207px; display: block; }
+	#video4 iframe { width: 368px; height: 207px; }*/
 	#mostRecent { top: 590px; left: 10px; min-width: 90px; width: 90px; min-height: 24px; height: 24px; display: block; }
 	#wb_element_instance22 { top: 64px; left: 0px; display: block; }
 }
