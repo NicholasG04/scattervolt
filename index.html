@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Home</title>
-    <<base href="https://scattervolt.com/" />
+    <base href="https://scattervolt.com/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -140,7 +140,7 @@
                         events: {  
                             'onStateChange': (event) => {
                                 console.log(event)
-                                player_id = event.target.a.id;
+                                player_id = event.target.f.id;
                                 if (event.data == 1) {
                                     if (currentlyPlaying != null && currentlyPlaying != player_id) {
                                         callPlayer(currentlyPlaying, 'pauseVideo');
@@ -312,7 +312,7 @@
                 <p class="wb-stl-footer">© 2018 Marc Aranibar and Nick#7925 -
                     <a href="http://scattervolt.com">ScatterVolt.com</a>
                 </p>
-                <p class="wb-stl-footer">By using this site, you are bound by the <a href="https://www.youtube.com/t/terms">YouTube TOS.</a></p>
+                <p class="wb-stl-footer">By using this site, you are bound by the <a href="https://www.youtube.com/t/terms">YouTube TOS.</a> and <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a></p>
             </div>
             <div id="wb_element_instance22" class="wb_element" style="text-align: center; width: 100%;">
                 <div class="wb_footer"></div>
