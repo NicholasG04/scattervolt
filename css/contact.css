@@ -10,7 +10,7 @@
 
 @media only screen and (min-width: 768px)
 {
-    #contactForm { max-width: 520px; margin: 150px auto auto auto; }
+    #contactForm { max-width: 600px; margin: 150px auto auto auto; }
 }
 
 h1, p { text-align: center; }
