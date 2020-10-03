@@ -139,7 +139,7 @@ body, .wb_sbg { min-width: 320px; min-height: 1787px; }
 	#marcPic { top: 50px; left: 0px; min-width: 120px; width: 120px; min-height: 130px; height: 130px; display: block; overflow: hidden; }
 	#marcPic img { width: 130px; height: 130px; display: block; position: relative; left: 0px; top: 0px; max-width: inherit; }
 	#smallScatterVolt { top: 90px; left: 140px; min-width: 320px; width: 320px; min-height: 68px; height: 68px; display: block; }
-	#footer { top: 20px; left: 10px; min-width: 450px; width: 450px; min-height: 24px; height: 24px; display: block; }
+	#footer { top: 20px; left: 10px; min-height: 24px; height: 24px; display: block; }
 	#aboutLine { top: 890px; left: 0px; min-width: 1200px; width: 1200px; min-height: 40px; height: 40px; display: block; }
 	#aboutMeTitle { top: 840px; left: 0px; min-width: 1180px; width: 1180px; min-height: 57px; height: 57px; display: block; }
 	#aboutDesc { top: 920px; left: 20px; min-width: 1180px; width: 1180px; min-height: 353px; height: 353px; display: block; }

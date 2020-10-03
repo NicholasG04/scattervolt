@@ -33,7 +33,7 @@
 #smallScatterVolt p:last-child { margin-bottom: 0; }
 #smallScatterVolt { top: 40px; left: 130px; min-width: 160px; width: 160px; min-height: 35px; height: 35px; display: block; z-index: 260; }
 #footer p:last-child { margin-bottom: 0; }
-#footer { top: 20px; left: 10px; min-width: 190px; width: 190px; min-height: 30px; height: 30px; display: block; z-index: 267; }
+#footer { top: 20px; left: 10px; min-height: 30px; height: 30px; display: block; z-index: 267; }
 
 
 @media (min-width: 768px) {
@@ -41,7 +41,7 @@
 	#marcPic { top: 50px; left: 10px; min-width: 100px; width: 100px; min-height: 100px; height: 100px; display: block; }
 	#marcPic img { width: 100px; height: 100px; display: block; position: static; left: 0px; top: 0px; }
 	#smallScatterVolt { top: 80px; left: 120px; min-width: 230px; width: 230px; min-height: 46px; height: 46px; display: block; }
-	#footer { top: 20px; left: 10px; min-width: 250px; width: 250px; min-height: 30px; height: 30px; display: block; }
+	#footer { top: 20px; left: 10px; min-height: 30px; height: 30px; display: block; }
 	
 }
 
@@ -50,7 +50,7 @@
 	#marcPic { top: 50px; left: 20px; min-width: 100px; width: 100px; min-height: 110px; height: 110px; display: block; overflow: hidden; }
 	#marcPic img { width: 110px; height: 110px; display: block; position: relative; left: 0px; top: 0px; max-width: inherit; }
 	#smallScatterVolt { top: 80px; left: 130px; min-width: 390px; width: 390px; min-height: 57px; height: 57px; display: block; }
-	#footer { top: 20px; left: 11px; min-width: 410px; width: 410px; min-height: 24px; height: 24px; display: block; }
+	#footer { top: 20px; left: 11px; min-height: 24px; height: 24px; display: block; }
 	
 }
 
