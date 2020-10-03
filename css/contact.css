@@ -28,7 +28,7 @@ textarea { height: 200px; }
 body { background: transparent url("../gallery/bg.jpg") no-repeat scroll center top; background-size: auto auto; z-index: -1; }
 .wb_sbg { background: transparent none repeat-x scroll left top; }
 body, .wb_sbg { min-width: 320px; min-height: 1384px; }
-.wb_cont_inner { width: 320px; height: 100%; }
+.wb_cont_inner { width: 320px; }
 .wb_cont_bg { width: 320px; margin-left: -160px; }
 .root { height: 1384px; overflow: hidden; min-height: 1384px; }
 #header p:last-child { margin-bottom: 0; }

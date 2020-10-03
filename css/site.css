@@ -85,7 +85,7 @@ a img		{ border: none; }
 .wb_cont_inner_rel { position: relative; margin: 0 auto; width: 100%; }
 .wb_cont_outer_rel { position: relative; width: 100%; }
 
-.wb_cont_bg { position: absolute; width: 1200px; height: 100%; left: 50%; top: 0; margin-left: -600px; }
+.wb_cont_bg { position: absolute; width: 1200px; left: 50%; top: 0; margin-left: -600px; }
 
 #wb_header	{ position: relative; z-index: 4; }
 #wb_header_placeholder { z-index: 4; }
