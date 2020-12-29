@@ -25,14 +25,11 @@
     <!-- Ancillaries end -->
 
     <!-- Meta and base stuff, whatever that is -->
-    <base href="{{base_url}}" /> <!-- no clue -->
     <meta http-equiv="content-type" content="text/html; charset=utf-8" /> <!-- got no idea -->
     <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Scales the viewport to match the device with, bu asks for a scaling of 1 everywhere. This is a retarded idea. -->
     <meta name="description" content="" /> <!-- something something SEO -->
     <meta name="keywords" content="" /> <!-- something something SEO -->
     <link rel="shortcut icon" href="gallery/marc.jpg" /> <!-- because marc picture -->
-
-    <script type="text/javascript">var currLang = '';</script> <!-- Until this does something useful, we don't need multiple lines. -->
 
     <!-- Google Analytics -->
     <script>
@@ -131,20 +128,6 @@
         <div class="wb_cont_inner" style="height: 124px;">
           <div id="footer" class="wb_element" style=" line-height: normal;">
             <p class="wb-stl-footer">© 2018 Marc Aranibar and Nick#7925 - <a href="http://scattervolt.com">ScatterVolt.com</a></p>
-          </div>
-          <div id="footer2" class="wb_element" style="text-align: center; width: 100%;">
-            <div class="wb_footer"></div>
-            <script type="text/javascript">
-              $(function () {
-                var footer = $(".wb_footer");
-                var html = (footer.html() + "").replace(/^\s+|\s+$/g, "");
-                if (!html) {
-                  footer.parent().remove();
-                  footer = $("#wb_footer, #wb_footer .wb_cont_inner");
-                  footer.css({height: ""}); // Because we don't do anything else here.});
-                }
-              });
-            </script>
           </div>
         </div>
         <div class="wb_cont_outer"></div>
